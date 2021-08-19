@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		D8DD2A9826CD1EF20094B5D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DD2A9726CD1EF20094B5D4 /* AppDelegate.swift */; };
 		D8DD2A9A26CD1EF20094B5D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DD2A9926CD1EF20094B5D4 /* SceneDelegate.swift */; };
-		D8DD2A9C26CD1EF20094B5D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DD2A9B26CD1EF20094B5D4 /* ViewController.swift */; };
+		D8DD2A9C26CD1EF20094B5D4 /* PhoneBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DD2A9B26CD1EF20094B5D4 /* PhoneBookViewController.swift */; };
 		D8DD2A9F26CD1EF20094B5D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8DD2A9D26CD1EF20094B5D4 /* Main.storyboard */; };
 		D8DD2AA226CD1EF20094B5D4 /* Phone_book.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D8DD2AA026CD1EF20094B5D4 /* Phone_book.xcdatamodeld */; };
 		D8DD2AA426CD1EF50094B5D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8DD2AA326CD1EF50094B5D4 /* Assets.xcassets */; };
 		D8DD2AA726CD1EF50094B5D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8DD2AA526CD1EF50094B5D4 /* LaunchScreen.storyboard */; };
+		D8DD2AB326CE3BB30094B5D4 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DD2AB226CE3BB30094B5D4 /* ContactModel.swift */; };
+		D8DD2ABC26CE5B040094B5D4 /* ContactsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DD2ABA26CE5B040094B5D4 /* ContactsCell.swift */; };
+		D8DD2ABD26CE5B040094B5D4 /* ContactsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8DD2ABB26CE5B040094B5D4 /* ContactsCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D8DD2A9426CD1EF20094B5D4 /* Phone book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Phone book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DD2A9726CD1EF20094B5D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8DD2A9926CD1EF20094B5D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D8DD2A9B26CD1EF20094B5D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8DD2A9B26CD1EF20094B5D4 /* PhoneBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneBookViewController.swift; sourceTree = "<group>"; };
 		D8DD2A9E26CD1EF20094B5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8DD2AA126CD1EF20094B5D4 /* Phone_book.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Phone_book.xcdatamodel; sourceTree = "<group>"; };
 		D8DD2AA326CD1EF50094B5D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8DD2AA626CD1EF50094B5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8DD2AA826CD1EF50094B5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8DD2AB226CE3BB30094B5D4 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		D8DD2ABA26CE5B040094B5D4 /* ContactsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsCell.swift; sourceTree = "<group>"; };
+		D8DD2ABB26CE5B040094B5D4 /* ContactsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactsCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +66,49 @@
 			children = (
 				D8DD2A9726CD1EF20094B5D4 /* AppDelegate.swift */,
 				D8DD2A9926CD1EF20094B5D4 /* SceneDelegate.swift */,
-				D8DD2A9B26CD1EF20094B5D4 /* ViewController.swift */,
-				D8DD2A9D26CD1EF20094B5D4 /* Main.storyboard */,
-				D8DD2AA326CD1EF50094B5D4 /* Assets.xcassets */,
-				D8DD2AA526CD1EF50094B5D4 /* LaunchScreen.storyboard */,
 				D8DD2AA826CD1EF50094B5D4 /* Info.plist */,
-				D8DD2AA026CD1EF20094B5D4 /* Phone_book.xcdatamodeld */,
+				D8DD2AB026CD23C80094B5D4 /* Model */,
+				D8DD2AAF26CD23B60094B5D4 /* View */,
+				D8DD2AAE26CD23A90094B5D4 /* Controllers */,
+				D8DD2AB126CD23FB0094B5D4 /* Supporting Files */,
 			);
 			path = "Phone book";
+			sourceTree = "<group>";
+		};
+		D8DD2AAE26CD23A90094B5D4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D8DD2A9B26CD1EF20094B5D4 /* PhoneBookViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D8DD2AAF26CD23B60094B5D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D8DD2A9D26CD1EF20094B5D4 /* Main.storyboard */,
+				D8DD2ABA26CE5B040094B5D4 /* ContactsCell.swift */,
+				D8DD2ABB26CE5B040094B5D4 /* ContactsCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D8DD2AB026CD23C80094B5D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D8DD2AB226CE3BB30094B5D4 /* ContactModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D8DD2AB126CD23FB0094B5D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8DD2AA326CD1EF50094B5D4 /* Assets.xcassets */,
+				D8DD2AA526CD1EF50094B5D4 /* LaunchScreen.storyboard */,
+				D8DD2AA026CD1EF20094B5D4 /* Phone_book.xcdatamodeld */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +171,7 @@
 				D8DD2AA726CD1EF50094B5D4 /* LaunchScreen.storyboard in Resources */,
 				D8DD2AA426CD1EF50094B5D4 /* Assets.xcassets in Resources */,
 				D8DD2A9F26CD1EF20094B5D4 /* Main.storyboard in Resources */,
+				D8DD2ABD26CE5B040094B5D4 /* ContactsCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,10 +182,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8DD2A9C26CD1EF20094B5D4 /* ViewController.swift in Sources */,
+				D8DD2A9C26CD1EF20094B5D4 /* PhoneBookViewController.swift in Sources */,
 				D8DD2A9826CD1EF20094B5D4 /* AppDelegate.swift in Sources */,
 				D8DD2A9A26CD1EF20094B5D4 /* SceneDelegate.swift in Sources */,
+				D8DD2AB326CE3BB30094B5D4 /* ContactModel.swift in Sources */,
 				D8DD2AA226CD1EF20094B5D4 /* Phone_book.xcdatamodeld in Sources */,
+				D8DD2ABC26CE5B040094B5D4 /* ContactsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
